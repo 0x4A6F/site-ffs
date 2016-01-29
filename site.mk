@@ -73,7 +73,7 @@ USB_PACKAGES_NET := \
 	kmod-usb-net-cdc-subset \
 	kmod-usb-net-dm9601-ether \
 	kmod-usb-net-hso \
-	kmod-usb-net-huawei-cdc-ncm
+	kmod-usb-net-huawei-cdc-ncm \
 	kmod-usb-net-ipheth \
 	kmod-usb-net-kalmia \
 	kmod-usb-net-kaweth \
