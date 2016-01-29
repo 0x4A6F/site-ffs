@@ -97,7 +97,6 @@ PCI_PACKAGES_NET := \
 	kmod-natsemi \
 	kmod-ne2k-pci \
 	kmod-pcnet32 \
-	kmod-r8139too \
 	kmod-r8169 \
 	kmod-sis900 \
 	kmod-sky2 \
@@ -106,6 +105,7 @@ PCI_PACKAGES_NET := \
 	kmod-via-rhine
 # broken
 #	kmod-ixgbe \
+#	kmod-r8139too \
 
 # additional packages
 TOOLS_PACKAGES := \
