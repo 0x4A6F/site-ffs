@@ -12,13 +12,12 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-zip \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
-	gluon-luci-admin \
-	gluon-luci-autoupdater \
-	gluon-luci-portconfig \
-	gluon-luci-private-wifi \
-	gluon-luci-wifi-config \
+	gluon-web-admin \
+	gluon-web-autoupdater \
+	gluon-web-network \
+	gluon-web-private-wifi \
+	gluon-web-wifi-config \
 	gluon-neighbour-info \
-	gluon-next-node \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
 	gluon-setup-mode \
@@ -26,7 +25,9 @@ GLUON_SITE_PACKAGES := \
 	haveged \
 	iptables \
 	iwinfo \
-	ffs-set-segment \
+	ffs-set-segment
+# Not working in LEDE
+#	gluon-next-node \
 
 # add addition network drivers and usb support only to targes where disk space does not matter.
 ifeq ($(GLUON_TARGET),x86-generic)
